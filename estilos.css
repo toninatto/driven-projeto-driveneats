@@ -56,29 +56,57 @@ h3 {
     width: 66px;
     margin-top: 9px;
 }
+h4 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+}
 .caixa-mae {
     width: 414px;
-    background-color: cyan;
+    background-color: #e5e5e5;
     display: flex;
     flex-direction: column;
+    padding-top: 96px;
+    padding-bottom: 108px;
 }
 .caixa-topo {
     width: 414px;
     height: 92px;
     background-color: #cf2b2b;
     box-sizing: border-box;
-    position:fixed;    
+    position:fixed;
+    top: 0;
+    left:0;    
 }
 .caixa-centro {
     width: 414px;
     background-color: #E5E5E5;
-    padding: 2px orange;
+    
     
 }
 .caixa-fundo {
     width: 414px;
-    background-color: royalblue;
-    padding: 2px pink;
+    height: 92px;
+    background-color: #ffffff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+.botao-finalizar {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #cbcbcb;
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    position: fixed;
 }
 .caixinha {
     width: 172px;
@@ -103,6 +131,8 @@ h3 {
     justify-content: space-between;
     margin-left: 19px;
     margin-top: 17px;
+    overflow-x: scroll;
+    overflow: hidden;
 }
 .caixinha img{
     width: 144px;
