@@ -109,6 +109,17 @@ body {
     justify-content: center;
     position: fixed;
 }
+.ligar {
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    background-color: #32b72f;
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
 .caixinha-um, .caixinha-dois, .caixinha-tres, .caixinha-quatro, .caixinha-cinco, .caixinha-seis, .caixinha-sete, .caixinha-oito, .caixinha-nove {
     width: 172px;
     height: 202px;
@@ -140,20 +151,20 @@ body {
     margin-right: 16px;
 }
 .caixinha-um:hover, .caixinha-dois:hover, .caixinha-tres:hover, .caixinha-quatro:hover, .caixinha-cinco:hover, .caixinha-seis:hover, .caixinha-sete:hover, .caixinha-oito:hover, .caixinha-nove:hover {    
-    border: 5px solid green;
+    border: 5px solid #32b72f;
     cursor: pointer;    
 }
 .selecionada {
     
-    border: 5px solid green;
+    border: 5px solid #32b72f;
 }
 .segundaselecionada {
     
-    border: 5px solid green;
+    border: 5px solid #32b72f;
 }
 .terceiraselecionada {
     
-    border: 5px solid green;
+    border: 5px solid #32b72f;
 }
 .v-um, .v-dois, .v-tres, .v-quatro, .v-cinco, .v-seis, .v-sete, .v-oito, .v-nove {
     width: 15.44px;

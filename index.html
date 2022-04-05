@@ -19,25 +19,25 @@
             <div class="categoria"><h2>Primeiro, seu prato</h2></div>
         <div class="conjunto-centro">            
             <div class="caixinha-um" onclick="escolherprato('-um')" >
-                <img src="PF.jpg"/>
-                <h3>Opção1</h3>
-                <p class="descricao">Descrição</p>
-                <p class="preco">Preço</p>
+                <img src="Feijoada vegana.png"/>
+                <h3>Feijoada Vegana</h3>
+                <p class="descricao">farofa e couve</p>
+                <p class="preco" id="preco-um">R$ 28,00</p>
                 <div class="v-um"> <img src="check.png"> </div>
                 
             </div>
             <div class="caixinha-dois" onclick="escolherprato('-dois')"  >
-            <img src="PF.jpg"/>
-            <h3>Opção2</h3>
-            <p class="descricao">Descrição</p>
-            <p class="preco">Preço</p>
+            <img src="cuscus marroquino.png"/>
+            <h3>Cuscus</h3>
+            <p class="descricao">Acomp. pão sírio</p>
+            <p class="preco" id="preco-dois">R$ 22,00</p>
             <div class="v-dois"> <img src="check.png"> </div>
         </div>
             <div class="caixinha-tres" onclick="escolherprato('-tres')"  >
-                <img src="PF.jpg"/>
-            <h3>Opção3</h3>
-            <p class="descricao">Descrição</p>
-            <p class="preco">Preço</p>
+                <img src="Moqueca de banana.jpg"/>
+            <h3>Moqueca Veg</h3>
+            <p class="descricao">Banana da terra</p>
+            <p class="preco" id="preco-tres">R$ 36,00</p>
             <div class="v-tres"> <img src="check.png"> </div>
         </div>
         </div></div>
@@ -45,24 +45,24 @@
              <div class="categoria"><h2>Agora, bebida</h2></div>
         <div class="conjunto-centro">            
             <div class="caixinha-quatro" onclick="escolherbebida('-quatro')">
-                <img src="Bebida.png"/>
-                <h3>Opção1</h3>
-                <p class="descricao">Descrição</p>
-                <p class="preco">Preço</p>
+                <img src="aguas.png"/>
+                <h3>Água</h3>
+                <p class="descricao">com ou sem gás</p>
+                <p class="preco" id="preco-quatro">R$ 3,00</p>
                 <div class="v-quatro"> <img src="check.png"> </div>
             </div>
             <div class="caixinha-cinco" onclick="escolherbebida('-cinco')">
                 <img src="Bebida.png"/>
-                <h3>Opção2</h3>
-                <p class="descricao">Descrição</p>
-                <p class="preco">Preço</p>
+                <h3>Refrigerante</h3>
+                <p class="descricao">Lata</p>
+                <p class="preco" id="preco-cinco">R$ 4,50</p>
                 <div class="v-cinco"> <img src="check.png"> </div>
             </div>
             <div class="caixinha-seis" onclick="escolherbebida('-seis')">
-                <img src="Bebida.png"/>
-                <h3>Opção3</h3>
+                <img src="suco laraja.jpg"/>
+                <h3>Natural</h3>
                 <p class="descricao">Descrição</p>
-                <p class="preco">Preço</p>
+                <p class="preco" id="preco-seis">R$ 5,00</p>
                 <div class="v-seis"> <img src="check.png"> </div>
             </div>
         </div></div>
@@ -70,24 +70,24 @@
             <div class="categoria"><h2>Por fim, sua sobremesa</h2></div>
         <div class="conjunto-centro">            
             <div class="caixinha-sete" onclick="escolhersobremesa('-sete')">
-                <img src="sobremesa.jpg"/>
-                <h3>Opção1</h3>
-                <p class="descricao">Descrição</p>
-                <p class="preco">Preço</p>
+                <img src="tiramissu.png"/>
+                <h3>Tiramisu</h3>
+                <p class="descricao">com amêndoas</p>
+                <p class="preco" id="preco-sete">R$ 9,00</p>
                 <div class="v-sete"> <img src="check.png"> </div>
             </div>
             <div class="caixinha-oito" onclick="escolhersobremesa('-oito')">
-                <img src="sobremesa.jpg"/>
+                <img src="pudim.png"/>
                 <h3>Opção2</h3>
-                <p class="descricao">Descrição</p>
-                <p class="preco">Preço</p>
+                <p class="descricao">Fatia</p>
+                <p class="preco" id="preco-oito">R$ 4,00</p>
                 <div class="v-oito"> <img src="check.png"> </div>
             </div>
             <div class="caixinha-nove" onclick="escolhersobremesa('-nove')">
-                <img src="sobremesa.jpg"/>
+                <img src="trufas.jpg"/>
                 <h3>Opção3</h3>
-                <p class="descricao">Descrição</p>
-                <p class="preco">Preço</p>
+                <p class="descricao">sortido</p>
+                <p class="preco" id="preco-nove">R$ 3,50</p>
                 <div class="v-nove"> <img src="check.png"> </div>
             </div>
         </div>
@@ -97,11 +97,12 @@
     </div>
     <div class="caixa-fundo">
 
-        <div class="botao-finalizar">
+        <div class="botao-finalizar" onclick="finaldopedido()">
             <h4>Selecione os 3 itens</h4>
             <h4>para fechar o pedido</h4>
         </div>
     </div>
     <script src="scripts.js"></script>
+
 </body>
 </html>
